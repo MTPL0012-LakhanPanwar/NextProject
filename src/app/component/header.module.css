@@ -1,0 +1,55 @@
+.header {
+    background: #164e5a;
+    height: 5rem;
+    width: 72rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    background: #f7de66;
+    color: #164E5A;
+    padding: 8px 15px;
+    border-radius: 1rem;
+    width: 7rem;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .header p,
+  .header svg {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .navigations {
+    flex-basis: 60vw;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .job-categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ .go_premium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
